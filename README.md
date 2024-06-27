@@ -26,3 +26,5 @@ Simple enough to use:
 ```haskell
 rho_method g h p x_0
 ```
+
+where `x_0` is a starting seed for the collision algorithm
