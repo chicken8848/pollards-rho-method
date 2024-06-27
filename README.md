@@ -7,7 +7,7 @@ g^t = h \in \mathbb{F}_p^*
 $$
 
 Where $g$ is a primitive root modulo $p$. The idea is to find a collision between $g^i h^j$ and $g^k h^l$ for some known exponents
-$i,j,k,l \in \mathbb{F}_p$
+$i,j,k,l$
 
 The function we use to create the discrete dynamical system is simple
 
