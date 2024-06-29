@@ -39,8 +39,8 @@ extendedEuclid a b
                     y = x' - (a `div` b) * y'
                 in (g, x, y)
 
-rho_method :: Int -> Int -> Int -> Int -> IO ()
-rho_method g h p x = loop x x g h p 0 0 0 0
+rho_method :: Int -> Int -> Int -> IO ()
+rho_method g h p = loop 1 1 g h p 0 0 0 0
   where
     loop x y g h p a b c d = do
       let new_a = alpha_power a x p
